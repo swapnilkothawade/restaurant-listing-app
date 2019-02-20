@@ -12,3 +12,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+header h6 {
+  text-align: left;
+  padding: 10px;
+}
+
+form {
+  padding: 20px;
+}
+
+form >div {
+  vertical-align: middle !important;
+  width: 50%;
+}
+
+.img-container {
+  width: 36%;
+  float: left;
+}
+
+.restaurant-data-container {
+  width: 64%;
+  float: left;
+}
+
+.list-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.list-wrapper img {
+  padding: 10px;
+  max-width: 100%;
+  margin: auto;
+  width: auto;
+}
